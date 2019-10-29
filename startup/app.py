@@ -5,7 +5,7 @@ from textblob import TextBlob
 app = Flask(__name__)
 
 # a simple home page
-@app.route('/hello')
+@app.route('/')
 def hello():
     return 'Python loves VS Toolbox!'
 
