@@ -4,7 +4,7 @@ from textblob import TextBlob
 # create Flask app
 app = Flask(__name__)
 
-# a simple page that says hello
+# a simple home page
 @app.route('/hello')
 def hello():
     return 'Python loves VS Toolbox!'
